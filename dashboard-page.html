@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConcertTix - My Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <i class="fas fa-ticket-alt"></i>
+                <h1>ConcertTix</h1>
+            </div>
+            <div class="search-bar">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Search concerts...">
+            </div>
+            <div class="user-profile">
+                <div class="profile-icon">JD</div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="page-title">
+            <h2>My Dashboard</h2>
+        </div>
+
+        <section class="my-tickets-section">
+            <div class="section-header">
+                <h3>My Tickets</h3>
+                <a href="#" class="sell-tickets-link">Sell Tickets</a>
+            </div>
+
+            <div class="ticket-list">
+                <!-- Ticket Item 1 -->
+                <div class="ticket-item">
+                    <div class="ticket-image" style="background-image: url('concert-coldplay.jpg');"></div>
+                    <div class="ticket-details">
+                        <h4>Coldplay</h4>
+                        <div class="ticket-info">
+                            <div class="info-item">
+                                <i class="far fa-calendar"></i>
+                                <span>Oct 3, 2025</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Allianz Parque, São Paulo</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ticket-location">
+                        <div class="location-badge">Floor • Row D • Seat 12</div>
+                        <button class="view-ticket-btn">
+                            <i class="fas fa-ticket-alt"></i> View Ticket
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Ticket Item 2 -->
+                <div class="ticket-item">
+                    <div class="ticket-image" style="background-image: url('concert-billie.jpg');"></div>
+                    <div class="ticket-details">
+                        <h4>Billie Eilish</h4>
+                        <div class="ticket-info">
+                            <div class="info-item">
+                                <i class="far fa-calendar"></i>
+                                <span>Aug 5, 2025</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>O2 Arena, London</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ticket-location">
+                        <div class="location-badge">Lower Bowl • Row J • Seat 5</div>
+                        <button class="view-ticket-btn">
+                            <i class="fas fa-ticket-alt"></i> View Ticket
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="purchase-history-section">
+            <h3>Purchase History</h3>
+            <table class="purchase-table">
+                <thead>
+                    <tr>
+                        <th>EVENT</th>
+                        <th>DATE PURCHASED</th>
+                        <th>PRICE</th>
+                        <th>STATUS</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="event-cell">
+                            <div class="event-image" style="background-image: url('concert-coldplay.jpg');"></div>
+                            <div class="event-details">
+                                <span class="event-name">Coldplay</span>
+                                <span class="event-venue">Allianz Parque</span>
+                            </div>
+                        </td>
+                        <td>Apr 15, 2025</td>
+                        <td>$139.99</td>
+                        <td><span class="status-confirmed">Confirmed</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <nav class="bottom-nav">
+        <a href="#" class="nav-item">
+            <i class="fas fa-home"></i>
+            <span>Home</span>
+        </a>
+        <a href="#" class="nav-item active">
+            <i class="fas fa-th-large"></i>
+            <span>Dashboard</span>
+        </a>
+        <a href="#" class="nav-item">
+            <i class="fas fa-shopping-cart"></i>
+            <span>Market</span>
+        </a>
+        <a href="#" class="nav-item">
+            <i class="fas fa-user"></i>
+            <span>Profile</span>
+        </a>
+    </nav>
+
+    <script src="script.js"></script>
+</body>
+</html>
