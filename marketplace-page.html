@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConcertTix - Ticket Marketplace</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <i class="fas fa-ticket-alt"></i>
+                <h1>ConcertTix</h1>
+            </div>
+            <div class="search-bar">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Search concerts...">
+            </div>
+            <div class="user-profile">
+                <div class="profile-icon">JD</div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="page-title-container">
+            <h2>Ticket Marketplace</h2>
+            <button class="filter-btn"><i class="fas fa-filter"></i> Filters</button>
+        </div>
+
+        <section class="resale-tickets-section">
+            <div class="section-header">
+                <h3>Resale Tickets</h3>
+                <a href="#" class="sell-tickets-link">Sell Your Tickets</a>
+            </div>
+
+            <div class="resale-ticket-list">
+                <!-- Resale Ticket Item 1 -->
+                <div class="resale-ticket-item">
+                    <div class="ticket-image" style="background-image: url('concert-taylor.jpg');"></div>
+                    <div class="ticket-details">
+                        <h4>Taylor Swift</h4>
+                        <div class="ticket-info">
+                            <div class="info-item">
+                                <i class="far fa-calendar"></i>
+                                <span>Jun 15, 2025</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Madison Square Garden, New York</span>
+                            </div>
+                        </div>
+                        <div class="ticket-seat">
+                            <i class="fas fa-chair"></i>
+                            <span>Section Floor • Row C • Seat 15</span>
+                        </div>
+                    </div>
+                    <div class="ticket-seller">
+                        <div class="seller-info">Listed by Alex Johnson</div>
+                        <div class="price-buy">
+                            <span class="resale-price">$220.00</span>
+                            <button class="buy-now-btn">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Resale Ticket Item 2 -->
+                <div class="resale-ticket-item">
+                    <div class="ticket-image" style="background-image: url('concert-taylor.jpg');"></div>
+                    <div class="ticket-details">
+                        <h4>Taylor Swift</h4>
+                        <div class="ticket-info">
+                            <div class="info-item">
+                                <i class="far fa-calendar"></i>
+                                <span>Jun 15, 2025</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Madison Square Garden, New York</span>
+                            </div>
+                        </div>
+                        <div class="ticket-seat">
+                            <i class="fas fa-chair"></i>
+                            <span>Section Lower Bowl • Row H • Seat 22</span>
+                        </div>
+                    </div>
+                    <div class="ticket-seller">
+                        <div class="seller-info">Listed by Maria Garcia</div>
+                        <div class="price-buy">
+                            <span class="resale-price">$180.00</span>
+                            <button class="buy-now-btn">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Resale Ticket Item 3 -->
+                <div class="resale-ticket-item">
+                    <div class="ticket-image" style="background-image: url('concert-billie.jpg');"></div>
+                    <div class="ticket-details">
+                        <h4>Billie Eilish</h4>
+                        <div class="ticket-info">
+                            <div class="info-item">
+                                <i class="far fa-calendar"></i>
+                                <span>Aug 5, 2025</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>O2 Arena, London</span>
+                            </div>
+                        </div>
+                        <div class="ticket-seat">
+                            <i class="fas fa-chair"></i>
+                            <span>Section Upper Level • Row B • Seat 8</span>
+                        </div>
+                    </div>
+                    <div class="ticket-seller">
+                        <div class="seller-info">Listed by James Wilson</div>
+                        <div class="price-buy">
+                            <span class="resale-price">$145.00</span>
+                            <button class="buy-now-btn">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <nav class="bottom-nav">
+        <a href="#" class="nav-item">
+            <i class="fas fa-home"></i>
+            <span>Home</span>
+        </a>
+        <a href="#" class="nav-item">
+            <i class="fas fa-th-large"></i>
+            <span>Dashboard</span>
+        </a>
+        <a href="#" class="nav-item active">
+            <i class="fas fa-shopping-cart"></i>
+            <span>Market</span>
+        </a>
+        <a href="#" class="nav-item">
+            <i class="fas fa-user"></i>
+            <span>Profile</span>
+        </a>
+    </nav>
+
+    <script src="script.js"></script>
+</body>
+</html>
